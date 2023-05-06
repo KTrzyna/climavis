@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-climavis-dev-184213-authRole",
+      "UnauthRoleArn": "arn:aws:iam::023787216823:role/amplify-climavis-dev-184213-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::023787216823:role/amplify-climavis-dev-184213-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-climavis-dev-184213-deployment",
+      "UnauthRoleName": "amplify-climavis-dev-184213-unauthRole",
+      "StackName": "amplify-climavis-dev-184213",
+      "StackId": "arn:aws:cloudformation:us-east-1:023787216823:stack/amplify-climavis-dev-184213/f60dd050-ec2c-11ed-982b-0e3d4404c141",
+      "AmplifyAppId": "d20tmqo438md9u"
+    }
+  }
+}
