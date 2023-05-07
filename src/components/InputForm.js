@@ -35,7 +35,12 @@ const InputForm = ({ tab }) => {
     }
 
     const getURLMockup = () => {
-        return tab.src + "/" + tab.folder + "/" + sliderValue
+        // if (tab.folder == "drought") {
+        //     if (sliderValue == 0) {
+        //         return imaged0;
+        //     } else if ()
+        // }
+        return tab.src + "/" + tab.folder + "/" + sliderValue + ".jpeg"
     }
 
     const handleSubmit = async (event) => {
@@ -104,7 +109,7 @@ const InputForm = ({ tab }) => {
                 <span className='placeholder'></span>
 
                 {mockup ?
-                    ((generatedImage) ? <Image src={imaged0}
+                    ((generatedImage) ? <Image src={generatedImage}
                         height="50%"
                         width="50%"
                     /> : "")
@@ -125,7 +130,7 @@ const InputForm = ({ tab }) => {
                         onChange={handleSliderChange}
                         aria-labelledby="input-slider"
                         min={0}
-                        max={3}
+                        max={2}
                         step={1}
                     />
                     <div className='button-container'>
