@@ -35,7 +35,7 @@ const tabs = [
     },
     {
         "id": 2,
-        "text": "Greenery, including trees and plants, is crucial for mitigating climate change. It sequesters carbon, cools urban environments, supports biodiversity, manages water, and improves community well-being. Integrating green spaces into urban planning and taking individual action can contribute to a sustainable future. Let’s embrace greenery to combat climate change and create resilient cities and ecosystems.",
+        "text": "Water pollution is a pressing environmental issue caused by various sources, including industrial waste, agricultural runoff, and improper waste disposal. It has detrimental impacts on ecosystems, human health, and access to clean water. Efforts to address water pollution include implementing strict regulations, promoting sustainable practices, and raising awareness about the importance of clean water.",
         "title": "Pollution",
         "src": "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich",
         "orgsrc": EXAMPLE_URL,
