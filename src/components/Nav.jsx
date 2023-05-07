@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import InputForm from './InputForm';
 
-export const EXAMPLE_URL = "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich/original.jpeg"
+export const EXAMPLE_URL = "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich/original.png"
 
 const tabs = [
     {
@@ -32,6 +32,14 @@ const tabs = [
         "src": "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich",
         "orgsrc": EXAMPLE_URL,
         "folder": "green"
+    },
+    {
+        "id": 3,
+        "text": "Greenery, including trees and plants, is crucial for mitigating climate change. It sequesters carbon, cools urban environments, supports biodiversity, manages water, and improves community well-being. Integrating green spaces into urban planning and taking individual action can contribute to a sustainable future. Let’s embrace greenery to combat climate change and create resilient cities and ecosystems.",
+        "title": "Pollution",
+        "src": "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich",
+        "orgsrc": EXAMPLE_URL,
+        "folder": "pollution"
     }
 
 ]

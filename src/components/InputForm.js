@@ -25,18 +25,12 @@ const InputForm = ({ tab }) => {
 
     const handleSubmitMockup = () => {
         const src = getURLMockup();
-        console.log("HELLO")
         console.log(src);
         setGeneratedImage(src);
     }
 
     const getURLMockup = () => {
-        // if (tab.folder == "drought") {
-        //     if (sliderValue == 0) {
-        //         return imaged0;
-        //     } else if ()
-        // }
-        return tab.src + "/" + tab.folder + "/" + sliderValue + ".jpeg"
+        return tab.src + "/" + tab.folder + "/" + sliderValue + ".png"
     }
 
     const handleSubmit = async (event) => {
