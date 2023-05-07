@@ -9,14 +9,14 @@ import InputForm from './InputForm';
 export const EXAMPLE_URL = "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich/original.png"
 
 const tabs = [
-    {
-        "id": 0,
-        "text": "Temperature is a key aspect of climate change. Rising temperatures are caused by human activities and have far-reaching effects. They disrupt ecosystems, lead to extreme weather events, impact human health, and create dangerous feedback loops. Mitigation and adaptation strategies are essential, and individual and collective action is crucial in addressing this global issue.",
-        "title": "Drought",
-        "src": "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich",
-        "orgsrc": EXAMPLE_URL,
-        "folder": "drought"
-    },
+    // {
+    //     "id": 0,
+    //     "text": "Temperature is a key aspect of climate change. Rising temperatures are caused by human activities and have far-reaching effects. They disrupt ecosystems, lead to extreme weather events, impact human health, and create dangerous feedback loops. Mitigation and adaptation strategies are essential, and individual and collective action is crucial in addressing this global issue.",
+    //     "title": "Drought",
+    //     "src": "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich",
+    //     "orgsrc": EXAMPLE_URL,
+    //     "folder": "drought"
+    // },
     {
         "id": 1,
         "text": "Air pollution is a significant environmental issue caused by natural and human sources. It has severe health impacts, contributes to climate change, and harms ecosystems. Solutions include transitioning to clean energy, promoting sustainable practices, supporting green technologies, and raising awareness about individual actions.",
