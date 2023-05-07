@@ -132,7 +132,10 @@ const InputForm = ({ tab }) => {
                         step={1}
                     />
                     <div className='button-container'>
-                        <Button variant="contained" type="submit" onClick={handleSubmitMockup}>
+                        <Button
+                            variant="contained"
+                            type="submit"
+                            onClick={handleSubmitMockup}>
                             Generate
                         </Button>
                     </div>

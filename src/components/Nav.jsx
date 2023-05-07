@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import InputForm from './InputForm';
 
-export const EXAMPLE_URL = "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich/original.jpg"
+export const EXAMPLE_URL = "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich/original.jpeg"
 
 const tabs = [
     {
