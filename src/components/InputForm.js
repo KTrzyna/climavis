@@ -9,9 +9,9 @@ import { useEffect } from 'react';
 import { EXAMPLE_URL } from './Nav';
 
 import imaged0 from "../assets/zurich/drought/0.jpeg"
-import imaged1 from "../assets/zurich/drought/1.jpeg"
+import imaged1 from "../assets/zurich/drought/1.jpg"
 import imageg0 from "../assets/zurich/green/0.jpeg"
-import imageg0 from "../assets/zurich/green/1.jpeg"
+import imageg1 from "../assets/zurich/green/1.jpeg"
 
 function importAll(r) {
     return r.keys().map(r);
@@ -31,7 +31,7 @@ const InputForm = ({ tab }) => {
         const src = getURLMockup();
         console.log("HELLO")
         console.log(src);
-        setGeneratedImage(img_path);
+        setGeneratedImage(src);
     }
 
     const getURLMockup = () => {
@@ -104,7 +104,7 @@ const InputForm = ({ tab }) => {
                 <span className='placeholder'></span>
 
                 {mockup ?
-                    ((generatedImage) ? <Image src={generatedImage}
+                    ((generatedImage) ? <Image src={imaged0}
                         height="50%"
                         width="50%"
                     /> : "")
