@@ -61,7 +61,7 @@ const InputForm = ({ tab }) => {
         });
 
         var requestOptions = {
-            // mode: 'no-cors',
+            mode: 'no-cors',
             method: 'POST',
             headers: myHeaders,
             body: raw,
