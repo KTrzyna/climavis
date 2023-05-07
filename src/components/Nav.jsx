@@ -11,7 +11,7 @@ export const EXAMPLE_URL = "https://raw.githubusercontent.com/KTrzyna/climavis/m
 const tabs = [
     {
         "id": 0,
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "text": "Temperature is a key aspect of climate change. Rising temperatures are caused by human activities and have far-reaching effects. They disrupt ecosystems, lead to extreme weather events, impact human health, and create dangerous feedback loops. Mitigation and adaptation strategies are essential, and individual and collective action is crucial in addressing this global issue.",
         "title": "Drought",
         "src": "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich",
         "orgsrc": EXAMPLE_URL,
@@ -19,7 +19,7 @@ const tabs = [
     },
     {
         "id": 1,
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "text": "Air pollution is a significant environmental issue caused by natural and human sources. It has severe health impacts, contributes to climate change, and harms ecosystems. Solutions include transitioning to clean energy, promoting sustainable practices, supporting green technologies, and raising awareness about individual actions.",
         "title": "Smog",
         "src": "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich",
         "orgsrc": EXAMPLE_URL,
@@ -28,7 +28,7 @@ const tabs = [
     {
         "id": 2,
         "text": "Greenery, including trees and plants, is crucial for mitigating climate change. It sequesters carbon, cools urban environments, supports biodiversity, manages water, and improves community well-being. Integrating green spaces into urban planning and taking individual action can contribute to a sustainable future. Let’s embrace greenery to combat climate change and create resilient cities and ecosystems.",
-        "title": "Green City",
+        "title": "Vegetation",
         "src": "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich",
         "orgsrc": EXAMPLE_URL,
         "folder": "green"

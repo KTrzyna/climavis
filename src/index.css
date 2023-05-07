@@ -25,6 +25,18 @@ code {
 
 .text-img-container {
   display: flex;
+  transition: all 300ms ease;
+}
+
+.text-container {
+  background-color: #FFECD1;
+  padding: 5px;
+  border-radius: 0.4em;
+
+}
+
+.img-container {
+  transition: all 300ms ease;
 }
 
 .paragraph {

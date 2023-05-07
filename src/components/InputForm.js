@@ -8,10 +8,6 @@ import axios from '../axios';
 import { useEffect } from 'react';
 import { EXAMPLE_URL } from './Nav';
 
-import imaged0 from "../assets/zurich/drought/0.jpeg"
-import imaged1 from "../assets/zurich/drought/1.jpg"
-import imageg0 from "../assets/zurich/green/0.jpeg"
-import imageg1 from "../assets/zurich/green/1.jpeg"
 
 function importAll(r) {
     return r.keys().map(r);
@@ -109,10 +105,12 @@ const InputForm = ({ tab }) => {
                 <span className='placeholder'></span>
 
                 {mockup ?
-                    ((generatedImage) ? <Image src={generatedImage}
-                        height="50%"
-                        width="50%"
-                    /> : "")
+                    ((generatedImage) ?
+                        <Image src={generatedImage}
+                            height="50%"
+                            width="50%"
+                        />
+                        : "")
                     :
                     <Image src={tab.src}
                         height="50%"
@@ -121,9 +119,9 @@ const InputForm = ({ tab }) => {
                 }
 
                 <div className='slider-container'>
-                    <p>{tab.text}</p>
+                    <p className='text-container'>{tab.text}</p>
                     <p>
-                        {tab.title}:
+                        {tab.title} intensity:
                     </p>
                     <Slider
                         value={sliderValue}
