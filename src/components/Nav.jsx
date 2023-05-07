@@ -12,30 +12,26 @@ const tabs = [
     {
         "id": 0,
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "title": "Temperature",
-        "src": "https://picsum.photos/1000/1002",
-        "orgsrc": EXAMPLE_URL
+        "title": "Draught",
+        "src": "../../assets/zurich",
+        "orgsrc": EXAMPLE_URL,
+        "folder": "drought"
     },
     {
         "id": 1,
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "title": "Green",
+        "title": "Smog",
         "src": "https://picsum.photos/1001/1000",
-        "orgsrc": EXAMPLE_URL
+        "orgsrc": EXAMPLE_URL,
+        "folder": "smog"
     },
     {
         "id": 2,
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "title": "Air Pollution",
-        "src": "https://picsum.photos/1000/1001",
-        "orgsrc": EXAMPLE_URL
-    },
-    {
-        "id": 3,
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "title": "Sea Level",
-        "src": "https://picsum.photos/1002/1000",
-        "orgsrc": EXAMPLE_URL
+        "title": "Green City",
+        "src": "../../assets/zurich",
+        "orgsrc": EXAMPLE_URL,
+        "folder": "green"
     }
 
 ]
