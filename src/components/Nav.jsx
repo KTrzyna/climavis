@@ -18,7 +18,7 @@ const tabs = [
     //     "folder": "drought"
     // },
     {
-        "id": 1,
+        "id": 0,
         "text": "Air pollution is a significant environmental issue caused by natural and human sources. It has severe health impacts, contributes to climate change, and harms ecosystems. Solutions include transitioning to clean energy, promoting sustainable practices, supporting green technologies, and raising awareness about individual actions.",
         "title": "Smog",
         "src": "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich",
@@ -26,7 +26,7 @@ const tabs = [
         "folder": "smog"
     },
     {
-        "id": 2,
+        "id": 1,
         "text": "Greenery, including trees and plants, is crucial for mitigating climate change. It sequesters carbon, cools urban environments, supports biodiversity, manages water, and improves community well-being. Integrating green spaces into urban planning and taking individual action can contribute to a sustainable future. Let’s embrace greenery to combat climate change and create resilient cities and ecosystems.",
         "title": "Vegetation",
         "src": "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich",
@@ -34,7 +34,7 @@ const tabs = [
         "folder": "green"
     },
     {
-        "id": 3,
+        "id": 2,
         "text": "Greenery, including trees and plants, is crucial for mitigating climate change. It sequesters carbon, cools urban environments, supports biodiversity, manages water, and improves community well-being. Integrating green spaces into urban planning and taking individual action can contribute to a sustainable future. Let’s embrace greenery to combat climate change and create resilient cities and ecosystems.",
         "title": "Pollution",
         "src": "https://raw.githubusercontent.com/KTrzyna/climavis/main/src/assets/zurich",

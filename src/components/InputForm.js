@@ -15,12 +15,18 @@ function importAll(r) {
 
 const InputForm = ({ tab }) => {
     const [sliderValue, setSliderValue] = useState(0);
+    const [dummySliderValue, setDummySliderValue] = useState(0);
+
     const [generatedImage, setGeneratedImage] = useState(null);
     const mockup = true;
 
 
     const handleSliderChange = (event, newValue) => {
         setSliderValue(newValue);
+    };
+
+    const handleDummySliderChange = (event, newValue) => {
+        setDummySliderValue(newValue);
     };
 
     const handleSubmitMockup = () => {
@@ -115,11 +121,22 @@ const InputForm = ({ tab }) => {
                 <div className='slider-container'>
                     <p className='text-container'>{tab.text}</p>
                     <p>
-                        {tab.title} intensity:
+                        {tab.title} growth rate:
                     </p>
                     <Slider
                         value={sliderValue}
                         onChange={handleSliderChange}
+                        aria-labelledby="input-slider"
+                        min={0}
+                        max={2}
+                        step={1}
+                    />
+                    <p>
+                        Accummulation time:
+                    </p>
+                    <Slider
+                        value={dummySliderValue}
+                        onChange={handleDummySliderChange}
                         aria-labelledby="input-slider"
                         min={0}
                         max={2}
